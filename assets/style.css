@@ -1,0 +1,56 @@
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/material-font.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tile-container {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(auto-fit, 157px);
+    padding: 7px;
+}
+
+.tile {
+    color: #ffffff;
+    height: 104px;
+    padding: 8px;
+}
+
+.tile-success {
+    background-color: green;
+}
+
+.tile-failed {
+    background-color: red;
+}
